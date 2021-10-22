@@ -1,0 +1,114 @@
+body{
+    background:#c0c0c0; 
+  }
+  
+  #wrapper{ 
+    width: 900px;
+    margin: 0 auto;
+    background:#f2e8c9;
+  }
+  
+  
+  
+  #header{
+  position:relative; 
+    height: 250px; 
+    background-color: #ffffff;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+  }
+  img{ 
+  float: left;
+    margin: -40px 0 0 0;} 
+  h1{ 
+    margin:0 0 10px 40px; 
+    color:hsl(249, 9%, 29%);; 
+  }
+  .nomer{ 
+   margin-left: 60px;
+    top:5px; 
+    left:680px; 
+    font-size: 25px;
+    font-style:italic; 
+    font-weight:bold;
+    color:#464451; 
+    text-align: center;
+  }
+  
+  
+  
+  #sidebar{
+    background-color: #ffffff; 
+    width: 180px; 
+    padding: 10px;
+    float: right; 
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  }
+  .marcer{ 
+    float: left; 
+    margin: 5px 5px 0 0; 
+  }
+  
+  
+  #content{
+    margin-bottom: 5px; 
+    width: 676px; 
+    padding: 10px; 
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  }
+  .left{
+    float: left;
+    margin: 30px 7px 7px 7px;
+  }
+  .right{ 
+    float: right;
+    margin: 7px 0 7px 7px;
+  }
+  
+  
+  #footer{ 
+    background-color: hsl(36, 20%, 95%);
+    display: flex;
+    flex-direction: row;
+    height:80px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+  }
+  .clear{ 
+    clear: both;
+  }
+  
+  
+  .imgimg{
+      margin-top: 25px;
+      margin-left: 25px;
+  } 
+  .text{
+      float:left;
+    margin:20px 0 0 60px;
+  }
+  .aaa{
+      text-align: center;
+  }
+  .img{
+      margin-top: 25px;
+      margin-left: 50px;
+      margin-right: 25px;
+  }
+  .table{
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    font-family: 'Raleway',sans-serif;
+  }
+  table, th, td {
+    border:1px solid black;
+  }

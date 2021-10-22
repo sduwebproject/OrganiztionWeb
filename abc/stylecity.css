@@ -1,0 +1,123 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+	/* height: auto; */
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background:url('overlay.png'),url('city.jpeg');
+	background-position:center;
+	background-size:cover;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	/* height: 200%; */
+	background-position:scroll;
+}
+.banner .navbar{
+	margin-top:4%;
+
+}
+.banner .navbar-brand{
+	color:#E0E0E0;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+
+}
+.banner .navbar-brand:hover{
+    color: #fff;
+}
+.banner .title{
+	font-size:1.8em;
+	font-weight: 550;
+	margin-top: 20px;
+	margin-left: 6%;
+}
+.banner .nav{
+	margin-right:10%; 
+}
+.banner .nav-link{
+	color:#aaa;
+	font-size: 1.2em;
+	transition: 0.4s;
+}
+.banner .nav-link:hover{
+	color:#fff;
+}
+.banner .nav-link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.banner .nav-link:hover::after {
+	width: 100%;
+}
+.nav-link :hover{
+	color: #fff;
+} 
+.banner .info{
+	margin-top:12.5%;
+	transform: translateY(-15%);
+}
+.banner .info h1{
+	font-size: 2.5em;
+	font-weight: 1000;
+	color: #fff;
+	letter-spacing: 3px;
+}
+.banner .info p{
+	font-size: 2em;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 1px;
+}
+.banner .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	/*background: #e91d43;*/
+	padding:10px 20px; 
+	font-size: 2em; 
+	font-weight: 600;
+}
+.banner .info a:hover{
+	color:black;
+	/*background: #e91e63;*/
+}
+.cities{
+	width: 95%;
+	height: 70%;
+	/* border:1px black solid; */
+}
+.clist{
+  display:flex;
+  flex-direction: row;
+  /* border:1px black solid; */
+  width: 100%;
+  height: 50%;
+}
+.clistthing{
+	display:flex;
+	flex-direction: row;
+	margin-left: 103px;
+	box-shadow:0 0 9px rgb(0, 0, 0);
+	width: 100%;
+	height: 60%;
+}
+.text{
+	letter-spacing: 1px;
+	font-family:'Raleway',sans-serif;
+	margin-left: 25px;
+	text-align: center;
+}
+.imgall{
+	width:50%;
+	height:143%;
+}
